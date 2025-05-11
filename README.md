@@ -1,5 +1,4 @@
-/* README.md */
-# Checkout Assignment System
+# Hypermar Queue Management System
 
 ## Description
 This is a web-based implementation of a customer distribution system for a hypermart's checkout machines. It dynamically assigns customers to the queue with the fewest total items.
