@@ -2,7 +2,9 @@
 
 ## Description
 This is a web-based implementation of a customer distribution system for a hypermart's checkout machines. It dynamically assigns customers to the queue with the fewest total items.
+<br>
 <img src="https://raw.githubusercontent.com/SidharajYadav/Hypermar-Queue-Management-system/main/wify2jpg.jpg" alt="Realme MD" width="400"/>
+<br>
 
 
 ## Technologies Used
