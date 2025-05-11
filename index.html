@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hypermart Checkout System</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body class="bg-blue-50 min-h-screen flex flex-col items-center py-8 px-4">
+  <h1 class="text-3xl font-bold text-gray-800 mb-1">Hypermart Checkout System</h1>
+  <p class="text-gray-500 text-sm mb-6">Real-time queue management system</p>
+
+  <div class="flex gap-2 mb-8 w-full max-w-md justify-center">
+    <input id="itemInput" type="number" min="1" placeholder="Enter number of items"
+           class="flex-1 px-4 py-2 border border-gray-300 rounded-md outline-none"/>
+    <button id="checkoutBtn"
+            class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-md font-medium">Checkout Items</button>
+  </div>
+
+  <div id="checkoutContainer"
+       class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-5xl"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
