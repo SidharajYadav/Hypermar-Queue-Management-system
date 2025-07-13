@@ -6,7 +6,7 @@ This is a web-based implementation of a customer distribution system for a hyper
 <img src="https://raw.githubusercontent.com/SidharajYadav/Hypermar-Queue-Management-system/main/wify2jpg.jpg" alt="Realme MD" width="400"/>
 <br>
 
-
+ 
 ## Technologies Used
 - HTML
 - CSS (Tailwind CSS)
