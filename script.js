@@ -8,7 +8,7 @@ const counters = [
   { id: 3, queue: [] },
 ];
 
-let selectedCounterIndex = null;
+let selectedCounterIndex = null; 
 
 function renderCounters() {
   checkoutContainer.innerHTML = "";
