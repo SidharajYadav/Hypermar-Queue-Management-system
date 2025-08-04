@@ -7,7 +7,7 @@ const counters = [
   { id: 2, queue: [] },
   { id: 3, queue: [] },
 ];
-
+ 
 let selectedCounterIndex = null; 
 
 function renderCounters() {
